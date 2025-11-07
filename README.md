@@ -3,6 +3,8 @@
 This is a modification of the Nagios 4x default `exfoliation` theme. 
 It does support light as well as dark mode and will switch based on the CSS media selector `prefers-color-scheme` which is browser controlled.
 
+When your local machine switches to dark-mode, so will the Nagios interface with this theme.
+
 ## Modifications
 
  - Instead of hardcoding color codes all over the place, they are now centrally defined as
