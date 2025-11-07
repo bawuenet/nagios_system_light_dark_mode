@@ -5,6 +5,10 @@ It does support light as well as dark mode and will switch based on the CSS medi
 
 When your local machine switches to dark-mode, so will the Nagios interface with this theme.
 
+## Screenshot
+
+<img width="1344" height="765" alt="grafik" src="https://github.com/user-attachments/assets/71f69a21-ccaa-452b-abf3-ccded67e7847" />
+
 ## Modifications
 
  - Instead of hardcoding color codes all over the place, they are now centrally defined as
