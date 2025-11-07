@@ -22,7 +22,7 @@ div.vidbox_lr { right:10px; bottom:10px; }
 .vidboxTabClose {
 /*	height:9px; */
 	width:12px;
-	border:1px solid white;
+	border:1px solid var(--background);
 	font: bold 13px sans-serif;
 	line-height: 10px;
 	margin: 3px 0 0 10px;
@@ -53,7 +53,7 @@ div.vidbox_lr { right:10px; bottom:10px; }
 
 .vidboxFrame {
 	background-color:#303030;
-	color:white;
+	color: var(--background);
 	border: 1px solid black;
 	display:none;
 	text-align: center;

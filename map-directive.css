@@ -14,7 +14,7 @@ div#spinner {
 div#mapsvg {
 	position: absolute;
 	border-style: solid;
-	border-color: #777777;
+	border-color: var(--border);
 	border-width: 1px;
 	width: 600px;
 	height: 600px;
@@ -28,7 +28,7 @@ div#mapsvg {
 }
 
 .node circle {
-	fill: #ffffff;
+	fill: var(--background);
 	stroke: #cccccc;
 	stroke-width: 2px;
 }
@@ -102,5 +102,5 @@ div#menubutton {
 div#menubutton button {
 	padding: 0px;
 	border: none;
-	background-color: white;
+	background-color: var(--background);
 }

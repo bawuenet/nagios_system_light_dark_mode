@@ -12,15 +12,15 @@
 
 .DynamicData  { font-size: 10pt; padding: 2; }
 .StaticData   { font-size: 10pt; padding: 2; }
-.TableHeader  { font-size: 10pt; background-color: #d0d0d0; font-weight: bold; }
+.TableHeader  { font-size: 10pt; background-color: var(--tac-table-header); font-weight: bold; }
 
-.Item         { font-size: 10pt; background-color: #f4f2f2; font-weight: bold; }
-.DataSource   { font-size: 10pt; background-color: #f4f2f2; }
-.Number       { font-size: 10pt; background-color: #f4f2f2; }
+.Item         { font-size: 10pt; background-color: var(--even-row); font-weight: bold; }
+.DataSource   { font-size: 10pt; background-color: var(--even-row); }
+.Number       { font-size: 10pt; background-color: var(--even-row); }
 
-.Value        { font-size: 10pt; background-color: #f4f2f2; font-weight: bold; }
-.ValueOk      { font-size: 10pt; background-color: #88d066; font-weight: bold; }
-.ValueError   { font-size: 10pt; background-color: #f88888; font-weight: bold; }
+.Value        { font-size: 10pt; background-color: var(--even-row); font-weight: bold; }
+.ValueOk      { font-size: 10pt; background-color: var(--status-ok); font-weight: bold; }
+.ValueError   { font-size: 10pt; background-color: var(--status-critical); font-weight: bold; }
 
 
 

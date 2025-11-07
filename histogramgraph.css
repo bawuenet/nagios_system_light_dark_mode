@@ -133,5 +133,5 @@ div#menubutton {
 div#menubutton button {
 	padding: 0px;
 	border: none;
-	background-color: white;
+	background-color: var(--background);
 }
