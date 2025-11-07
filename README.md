@@ -10,6 +10,11 @@ It does support light as well as dark mode and will switch based on the CSS medi
  - No modification of the light theme.
  - Dark theme with new colors.
 
+## Installation
+
+Replace the existing `html/stylesheets` directory contents of your Nagios Core 4.x installation
+with the contents of the `stylesheets` subfolder from this repo.
+
 ## License status
-The `exfoliation` theme is shipped with Nagios Core which is GPLv2 licensed.
+The `exfoliation` theme is shipped with Nagios Core which is GPLv2 licensed. 
 The `exfoliation` theme itself however is labeled with an MIT-ish license.
